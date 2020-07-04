@@ -4,9 +4,10 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
     <mirrors>
         <mirror>
-            <id>mirror</id>
-            <name>mirror</name>
-            <url>https://maven.aliyun.com/nexus/content/groups/public</url>
+            <id>aliyun_maven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <mirrorOf>central</mirrorOf>     
         </mirror>
     </mirrors>
 </settings>
